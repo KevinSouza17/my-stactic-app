@@ -1,7 +1,16 @@
 {
-  "name": "vanilla-basic",
+  "name": "curriculos-online",
   "version": "1.0.0",
-  "scripts": { 
-    "start": "sirv ./src public --cors --single --no-clear --port 8000"
-  }
+  "description": "Site com dois currículos online",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "live": "npx live-server --port=3000 --open=/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": ["curriculo", "portfolio", "web"],
+  "author": "",
+  "license": "MIT"
 }
